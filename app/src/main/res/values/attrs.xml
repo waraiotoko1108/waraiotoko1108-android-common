@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Badge -->
+    <attr name="solidColor" format="color"/>
+    <attr name="innerRadius" format="dimension"/>
+    <attr name="innerFontSize" format="dimension"/>
+    <declare-styleable name="Badge">
+        <attr name="solidColor"></attr>
+        <attr name="innerRadius"></attr>
+        <attr name="innerFontSize"></attr>
+    </declare-styleable>
+    <!-- RoundImageView -->
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+    <!-- CustomDotsTextView -->
+    <declare-styleable name="CustomDotsTextView">
+        <attr name="dotsColor" format="color"/>
+        <attr name="period" format="integer"/>
+        <attr name="jumpHeight" format="integer"/>
+        <attr name="autoPlay" format="boolean"/>
+    </declare-styleable>
+</resources>
